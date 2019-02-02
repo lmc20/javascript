@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-top:50px;  
+    text-align: center;
+    background-color: #a88c32;
+    color: #3632a8;
+    font: Helvetica; 
+}
+
+#input{
+    border: none;
+    width: 25%;
+    height: 50px;
+    border-radius:10px;
+    color: red;
+    font: 2em garamond; 
+    
+}
+
+#btn{
+    background: blanchedalmond;
+    font-family: cursive ;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+ul{
+
+
+    margin: 30px;
+    list-style: none;
+    font: 2em garamond; 
+    display: flex;
+    flex-direction: column;
+    margin-left:20%;
+     margin-right:20%; 
+        
+}
+
+li{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    
+}
+

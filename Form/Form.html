@@ -1,0 +1,68 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   
+    
+</head>
+
+<body>
+
+    <form onsubmit="return Validate();" action="Welcome.html"  >
+           UserName:<input type="text" id="uname" value="UserName"/><label style=" visibility:hidden"> Invalid </label>
+        </br></br>
+           
+           Password:<input type="password" id="pass" value="Password"/></br></br>
+                     <button type="submit" >Submit</button> 
+
+    </form>
+    
+</body>
+<script type="text/javascript">
+    
+    
+    function Validate()
+    
+    {
+        var UserName = document.getElementById("uname");
+        var Password = document.getElementById("pass");
+
+        if(UserName.value.trim() =="")
+        
+        {
+            alert("username empty");
+            uname.style.border ="2px solid red";
+            return false;
+
+            
+        } 
+
+        else if(Password.value.trim() =="")
+        
+        {
+          alert("password empty");
+          return false
+        } 
+        
+        else if(Password.value.trim().length<5)
+        
+        {
+          alert("password too short");
+          return false
+        } 
+
+     
+        else
+        {
+          return true;
+        } 
+    }   
+
+  
+  </script>
+
+</html>
